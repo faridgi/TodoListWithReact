@@ -1,0 +1,25 @@
+.menu{
+    font-size: 1.2em;
+    width: 80%;
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    padding: 1em;
+}
+
+ul li > a {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: blod;
+}
+
+.activeLink {
+    font-weight: bold;
+    color: #07c5fa;
+}
